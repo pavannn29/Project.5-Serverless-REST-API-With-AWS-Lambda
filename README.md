@@ -108,11 +108,6 @@ serverless deploy
 # Or use shorthand
 sls deploy
 
-# Deploy to specific stage
-sls deploy --stage prod
-
-# Deploy with verbose output
-sls deploy --verbose
 ```
 
 ### Expected Output
@@ -229,20 +224,6 @@ Policies:
 - dynamodb:Scan
 - dynamodb:DeleteItem
 
-## 📈 Monitoring & Logging
-
-### CloudWatch Logs
-```bash
-# View logs for specific function
-sls logs -f hello
-
-# Tail logs in real-time
-sls logs -f kaamBharo --tail
-
-# View logs for specific time range
-sls logs -f kaamDikhao --startTime 1h
-```
-
 ## 💰 Cost Breakdown
 
 **Lambda:**
@@ -284,25 +265,8 @@ sls logs -f kaamDikhao --startTime 1h
    - API Gateway Lambda proxy integration
    - CloudWatch for observability
 
-## 🚀 Future Enhancements
-
-- [ ] Add authentication with AWS Cognito
-- [ ] Implement API key management
-- [ ] Add input validation schemas
-- [ ] Set up multi-environment deployments (dev/staging/prod)
-- [ ] Implement CI/CD pipeline with GitHub Actions
-- [ ] Add API documentation with Swagger/OpenAPI
-- [ ] Implement caching with API Gateway
-- [ ] Add X-Ray tracing for debugging
-- [ ] Create Lambda layers for shared code
-- [ ] Implement DynamoDB streams for event processing
-
-
 ## 📧 Contact
-
 For questions or feedback:
 - LinkedIn: https://www.linkedin.com/in/pavangupta29/
-- Email: manipalstudentbca29@gmail.com
+- Email: pavangupta.devops2@gmail.com
 - GitHub: pavannn29
-
----
